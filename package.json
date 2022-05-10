@@ -1,8 +1,10 @@
 {
     "name": "vscode-mc-theme",
+    "publisher": "jgrundback",
+    "repository": "https://github.com/whoopsjohnnie/vscode-mc-theme",
     "displayName": "vscode-mc-theme",
     "description": "VSCode M/NC theme",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.48.0"
     },
@@ -12,9 +14,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "VSCode MC theme, dark",
+                "label": "VSCode MC theme, gray",
                 "uiTheme": "vs-dark",
                 "path": "./themes/mc-color-theme.json"
+            }, 
+            {
+                "label": "VSCode MC theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mc-color-theme2.json"
             }
         ]
     }

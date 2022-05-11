@@ -2,10 +2,10 @@
     "name": "vscode-mc-theme",
     "publisher": "jgrundback",
     "repository": "https://github.com/whoopsjohnnie/vscode-mc-theme",
-    "displayName": "VSCode Norton Commander",
-    "description": "VSCode Norton Commander themes",
+    "displayName": "Norton Commander",
+    "description": "Norton Commander themes",
     "icon": "logo.jpg",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.48.0"
     },
@@ -15,12 +15,12 @@
     "contributes": {
         "themes": [
             {
-                "label": "VSCode Norton Commander theme, gray",
+                "label": "Norton Commander theme, gray",
                 "uiTheme": "vs-dark",
                 "path": "./themes/mc-color-theme.json"
             }, 
             {
-                "label": "VSCode Norton Commander theme",
+                "label": "Norton Commander theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/mc-color-theme2.json"
             }

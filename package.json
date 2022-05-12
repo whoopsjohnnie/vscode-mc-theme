@@ -5,7 +5,7 @@
     "displayName": "Norton Commander",
     "description": "Norton Commander themes",
     "icon": "logo.jpg",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "engines": {
         "vscode": "^1.48.0"
     },
@@ -15,14 +15,19 @@
     "contributes": {
         "themes": [
             {
-                "label": "Norton Commander theme, gray",
+                "label": "Norton Commander theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/mc-color-theme.json"
             }, 
             {
-                "label": "Norton Commander theme",
+                "label": "Norton Commander theme, gray",
                 "uiTheme": "vs-dark",
                 "path": "./themes/mc-color-theme2.json"
+            }, 
+            {
+                "label": "Norton Commander theme, maroon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mc-color-theme3.json"
             }
         ]
     }
